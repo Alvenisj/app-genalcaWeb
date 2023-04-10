@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genalca</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./estyles/global.css" />
+    <link rel="stylesheet" href="./estyles/about.css" />
+    <link rel="stylesheet" href="./estyles/productMenu.css" />
+    <link rel="stylesheet" href="./estyles/ofertas.css" />
+    <link rel="stylesheet" href="./estyles/footer.css" />
+  </head>
+  <body>
+    <header id="home" class="portada">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./img/logo.png" class="logo" alt="logo" />
+            <a href="https://wa.me/584121742675?text=¡HOLA!%20Maryi,%20necesito%20información" class="icon-whatsapp-header">
+
+              <i class="fab fa-whatsapp"></i>
+        
+            </a>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+            
+          </div>
+          <!-- links -->
+          <div class="links-container">
+          
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">Inicio</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">Nosotros</a>
+              </li>
+              <li>
+                <a href="#product" class="scroll-link">Productos</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Genéricos Genalca</h1>
+          <p>
+           Genericos a base de hipoclorito, Sulfónico, fragancias. Entre las principales actividades que realiza Genalca, tenemos la venta de herramientas y artículos para el hogar.
+          </p>
+          <a href="#product" class="scroll-link btn btn-white">Nuestros Productos</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>Nosotros <span>Genalca</span></h2>
+        <p>
+          Emprender e innovar; elaborando productos de limpieza de forma artesanal y, proveyendo a la comunidad de insumos necesarios.
+        </p>
+
+        <div class="about-center section-center-about">
+          <article class="about-img">
+            <img src="./img/about.jpg" alt="" />
+          </article>
+          <article class="about">
+            <!-- btn container -->
+            <div class="btn-container">
+              <button class="tab-btn active" data-id="history">historia</button>
+              <button class="tab-btn" data-id="mision">misión</button>
+              <button class="tab-btn" data-id="vision">visión</button>
+            </div>
+            <div class="about-content">
+              <!-- single item -->
+                <div class="content active" id="history">
+                  <h4>historia</h4>
+                  <p>
+                    Hace 5 años, Genalca nace con la finalidad de proveer a la comunidad, genericos y artículos para el hogar. Actualmente genalca es una empresa comprometida con sus proveedores y clientes; tenemos una cobertura que abarca todo el Estado - táchira y abastece todo tipo de comercios.
+                    
+                  </p>
+                </div>
+        
+                <div class="content" id="mision">
+                  <h4>Misión</h4>
+                  <p>
+                    Venta y distribución de genericos de limpieza y, herramientas de trabajo para el hogar.
+                  </p>
+                 </div>
+                <div class="content" id="vision">
+                  <h4>Visión</h4>
+                  <p>
+                    Ser líderes en el mercado de genericos de limpieza y, promover la calidad de nuestros productos a nivel nacional.
+                  </p>
+                </div>
+                <!-- end of single item -->
+                </div>
+          </article>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- products -->
+    <section id="product" class="menu">
+
+      <div class="title">
+          <h2>nuestros <span>productos</span></h2>
+          <div class="underline"></div>
+      </div>
+
+      <div class="btn-container-menu">
+        <!-- <button type="button" class="filter-btn" data-id="all">all</button>
+        <button type="button" class="filter-btn" data-id="breakfast">
+          breakfast
+        </button>
+        <button type="button" class="filter-btn" data-id="lunch">lunch</button>
+        <button type="button" class="filter-btn" data-id="shakes">
+          shakes
+        </button> -->
+      </div>
+      <!-- menu items -->
+      <div class="section-center-product">
+        <!-- single item -->
+      <!-- AQUÍ SE GENERAN DESDE javascript CADA PRODUCTO DE LA WEB -->
+        <!-- end of single item -->
+      </div>
+
+</section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+      
+      <p>Estamos ubicados en Coloncito, municipio panamericano, calle 13, entre carrera 8 y 9, BARRIO BOLÍVAR</p>
+
+      <p>
+        copyright &copy; Genericos Genalca C.A
+        <span id="date"></span>. all rights reserved
+      </p>
+
+    </footer>
+
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+
+
+    <!-- javascript -->
+    <script src="./app.js" type="module"></script>
+    <script src="./about.js" type="module"></script>
+    <script src="./product.js" type="module"></script>
+    <script src="./ofertas.js" type="module"></script>
+  </body>
+</html>
+
+
+
+
